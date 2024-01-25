@@ -30,5 +30,9 @@ console.log(array3);
 //rest operator ESC
 let reutrnRecieved=restOperator(1,2,3,4)
     function restOperator(...args){
-        console.log();
+        console.log(args);
     }
+
+setTimeout(()=>{
+    console.log("I am better ");
+},3000)
